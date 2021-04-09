@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
-@keyframes anim{
-  0%{
-      transform: translateY(0%);
+@keyframes anim {
+  0% {
+    transform: translateY(0%);
   }
-  100%{
-      /* transform: translateY(200%); */
-      transform: translateY(500%);
+  100% {
+    /* transform: translateY(200%); */
+    transform: translateY(500%);
   }
 }
 
-@keyframes back{
-  0%{
-      transform: translateY(500%);
+@keyframes back {
+  0% {
+    transform: translateY(500%);
   }
-  50%{
+  50% {
     transform: translateY(-100%);
   }
-  100%{
-      transform: translateY(0);
+  100% {
+    transform: translateY(0);
   }
 }
 
@@ -26,7 +26,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
@@ -69,7 +68,6 @@ section {
 
 /* separar o css principal do mooncake */
 
-
 .chookity {
   font-size: 63px;
   color: black;
@@ -84,7 +82,7 @@ section {
 .mooncake {
   display: grid;
   width: 230px;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 .mooncake.surprise {
@@ -276,7 +274,6 @@ section {
 .brilho-olho {
   background-color: white;
   border-radius: 50%;
-  
 }
 
 .brilho-olho.medio {
@@ -334,4 +331,13 @@ section {
 .patinha.esquerda {
   border-radius: 42% 35% 50% 50%;
   transform: rotate(-21deg);
+}
+
+@media screen and (max-width: 767px) {
+  .chookity {
+    transform: rotate(-28deg);
+    font-size: 45px;
+    top: 25%;
+    left: 40%;
+  }
 }
