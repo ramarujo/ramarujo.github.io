@@ -93,10 +93,6 @@ h1 {
   color: #a0346c;
 }
 
-h2 {
-  margin-top: 42px; 
-}
-
 h3 {
   font-weight: 500;
   letter-spacing: 0.20rem;
@@ -139,7 +135,7 @@ span {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 50px;
+  margin: 50px;
 }
 .skill {
   border: 2px solid #6a6a6a;
@@ -148,7 +144,6 @@ span {
   font-family: 'Bebas Neue', cursive;
   margin: 12px;
   letter-spacing: 0.10rem;
-
 }
 
 .skill.minor {
@@ -158,4 +153,8 @@ span {
 ::selection {
   background-color: #a0346c;
   color: white;
+}
+
+.mt42 {
+  margin-top: 42px;
 }
