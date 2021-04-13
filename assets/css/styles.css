@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@400;600;700;800;900&display=swap');
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Playfair Display', serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  color: #6a6a6a;
+}
+
+nav {
+  font-family: 'Bebas Neue', cursive;
+  height: 8rem;
+  letter-spacing: 8px;
+
+  background-color: white;
+  display: flex;
+  align-items: flex-end;
+  font-weight: 500;
+
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 25px;
+}
+
+nav img {
+  border-radius: 50%;
+  position: relative;
+  top: 20%;
+  left: 7px;
+  width: 110px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 85px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #151a39;
+  font-size: 20px;
+  margin: 0 30px;
+}
+
+.left {
+  width: 40%;
+  margin: 0 auto 1vw;
+}
+
+.center {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto 1vw;
+}
+
+
+
+section {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 12rem;
+  padding-bottom: 5rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+  color: #a0346c;
+}
+
+h2 {
+  margin-top: 42px; 
+}
+
+h3 {
+  font-weight: 500;
+  letter-spacing: 0.20rem;
+}
+
+p {
+  font-size: 24px;
+  margin: 12px 0
+}
+
+.about {
+  font-size: 36px;
+    margin: 24px 0;
+    font-weight: 700;
+    line-height: 56px;
+    
+}
+
+span {
+  font-size: 24px;
+  margin: 32px 0;
+}
+
+.company { 
+  display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.company h3,
+.company h4 {
+  margin: 0 30px
+}
+.skills-group {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 50px;
+}
+.skill {
+  border: 2px solid #6a6a6a;
+  background-color: #f5f5f5;
+  padding: 4px 8px;
+  font-family: 'Bebas Neue', cursive;
+  margin: 12px;
+  letter-spacing: 0.10rem;
+
+}
+
+.skill.minor {
+  opacity: 0.7;
+}
+
+::selection {
+  background-color: #a0346c;
+  color: white;
+}

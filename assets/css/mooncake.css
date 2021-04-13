@@ -30,7 +30,6 @@
 
 body {
   overflow: hidden;
-  font-family: 'Bangers', cursive;
 }
 
 section {
@@ -77,6 +76,7 @@ section {
   z-index: 4;
   transform: rotate(-21deg);
   display: none;
+  font-family: 'Bangers', cursive;
 }
 
 .mooncake {
