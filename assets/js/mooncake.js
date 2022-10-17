@@ -6,7 +6,6 @@ var mooncake = document.getElementById("mooncake"),
   chookity = document.getElementsByClassName('chookity')[0];
   // interests = document.getElementById("wrapper-interests")
 
-
 mooncake.onmousemove = () => {
   mouth.classList.add('surprise')
   eyes.forEach(eye => eye.classList.add('surprise'));
