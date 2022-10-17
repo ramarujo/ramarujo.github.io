@@ -293,10 +293,6 @@ span {
   h4 {
     font-size: 14px;
   }
-
-  .company {
-    flex-direction: column;
-}
   .company h3,
   .company h4 {
     margin: 0 5px;
